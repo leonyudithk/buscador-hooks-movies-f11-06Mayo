@@ -28,6 +28,14 @@ const NavBars = () => {
                         >
                            Hobbit
                         </NavLink>
+                        <NavLink
+                            activeClassName= 'active'
+                            className="nav-item nav-link"
+                            exact
+                            to= '/search'
+                        >
+                           Search
+                        </NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const PintarCardMovies = ({id, name}) => {
     return (
@@ -9,7 +10,7 @@ const PintarCardMovies = ({id, name}) => {
                 <Card.Img variant="top" src={`./assets/movies/${id}.jpg`} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
-                    <Button variant="primary">Detalle</Button>
+                    <Button variant="primary"><Link to={`/detalle/${id}`}>Detalle</Link></Button>
                 </Card.Body>
             </Card>
         </center>

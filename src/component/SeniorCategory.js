@@ -7,6 +7,7 @@ const SeniorCategory = () => {
             <h1>The Lord of the Rings</h1>
             <hr/>
             <List category='senior'/>
+            
         </div>
     );
 };
